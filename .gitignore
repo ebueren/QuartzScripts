@@ -1,0 +1,12 @@
+# Keep directories so .slurm files inside can be tracked
+!*/
+
+# Keep .gitignore itself
+!.gitignore
+
+# Keep all .slurm files
+!*.slurm
+!*.sh
+!*.py
+!*.awk
+!*.bash
