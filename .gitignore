@@ -1,5 +1,10 @@
-# Keep directories so .slurm files inside can be tracked
+# Ignore everything
+*
+# Allow directories so rules below can match inside them
 !*/
+
+# Ignore everything in the 'old' directory
+old/**
 
 # Keep .gitignore itself
 !.gitignore
